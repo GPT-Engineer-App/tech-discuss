@@ -3,6 +3,7 @@ import Index from "./pages/Index.jsx";
 import Home from "./pages/Home.jsx";
 import Discussion from "./pages/Discussion.jsx";
 import CreatePost from "./pages/CreatePost.jsx";
+import Register from "./pages/Register.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/discussion/:id" element={<Discussion />} />
         <Route exact path="/create-post" element={<CreatePost />} />
+        <Route exact path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
