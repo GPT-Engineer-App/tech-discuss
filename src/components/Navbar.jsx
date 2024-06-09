@@ -16,6 +16,9 @@ const Navbar = () => {
           <Link as={RouterLink} to="/create-post" color="white" mx={2}>
             Create Post
           </Link>
+          <Link as={RouterLink} to="/register" color="white" mx={2}>
+            Register
+          </Link>
         </Flex>
       </Flex>
     </Box>
